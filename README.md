@@ -44,7 +44,7 @@ Participants will be able to:
 - Assemble genomes and identify species/strains  
 - Detect antimicrobial resistance and virulence genes  
 - Perform phylogenetic analysis using genomic data  
-- Use online tools and databases (NCBI, CARD, PubMLST, etc.)
+- Use online bioinformatics tools
 
 ---
 
