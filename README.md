@@ -1,7 +1,7 @@
 # Bacterial-Genomics-Sequencing-and-Bioinformatics-Training
 # 🧬 Sequencing and Bioinformatics Training Course
 
-Welcome to the official repository for the **Sequencing and Bioinformatics Training Course** — a one-week intensive program designed for laboratory scientists, researchers, and students interested in bacterial genomics and modern bioinformatics techniques.
+Welcome to the official repository for the **Bacterial Genomics: Sequencing and Bioinformatics Training Course**. This one-week intensive training course is organized by the MicroHub Laboratory Kericho (MHK) to provide the participants with a comprehensive introduction to sequencing workflows and bioinformatics analysis, with a focus on bacterial genomics. The course is designed for laboratory scientists, researchers, and students who wish to understand the end-of-the-end process of Bacterial DNA sequencing and Bioinformatics analysis. Participants will engage in both hands-on wet-lab activities and practical bioinformatics sessions.
 
 ---
 
