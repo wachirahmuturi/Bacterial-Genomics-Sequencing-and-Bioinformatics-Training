@@ -53,7 +53,7 @@ Participants will be able to:
 
 📁 course_material/
 
-📄 Course_manual.pdf
+📄 [Course_manual.pdf](https://github.com/AMR-Bioinformatics/Bacterial-Genomics-Sequencing-and-Bioinformatics-Training/blob/main/Course_manual.pdf)
 
 📁 Modules/
 
