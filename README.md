@@ -9,9 +9,6 @@ Welcome to the official repository for the **Bacterial Genomics: Sequencing and 
 
 **5 Days**  
 **Time:** 8:00 AM – 5:00 PM  
-**Breaks:**  
-- Tea Break: 10:30 AM – 11:00 AM  
-- Lunch: 1:00 PM – 2:00 PM
 
 ---
 
