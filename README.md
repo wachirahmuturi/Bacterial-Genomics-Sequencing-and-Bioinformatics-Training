@@ -50,18 +50,31 @@ Participants will be able to:
 
 ## 📂 Repository Contents
 
-```bash
-📁 course_materials/
-├── 📄 Timetable.docx
-├── 📄 Course_Overview_and_Outcomes.docx
-├── 🖼 Cover_Image.png
-├── 📁 Lectures/
-│   ├── DNA_Extraction.pptx
-│   └── Bacterial_Genomics.pdf
-├── 📁 Lab_Protocols/
-│   ├── DNA_Extraction_SOP.pdf
-│   └── Library_Prep_Protocol.pdf
-├── 📁 Bioinformatics/
-│   ├── unix_intro.md
-│   ├── genome_assembly.ipynb
-│   └── phylogenetics_workflow.sh
+
+📁 course_material/
+
+📄 Course_manual.pdf
+
+📁 Modules/
+
+* [AMR and Virulence genes screening](https://github.com/AMR-Bioinformatics/Bacterial-Genomics-Sequencing-and-Bioinformatics-Training/tree/main/Modules/AMR%20and%20Virulence%20genes%20screening)
+* [Introduction to Conda](https://github.com/AMR-Bioinformatics/Bacterial-Genomics-Sequencing-and-Bioinformatics-Training/tree/main/Modules/Introduction%20to%20Conda)
+* [Introduction to Unix](https://github.com/AMR-Bioinformatics/Bacterial-Genomics-Sequencing-and-Bioinformatics-Training/tree/main/Modules/Introduction%20to%20Unix)
+* [Sequence data QC and preprocessing](https://github.com/AMR-Bioinformatics/Bacterial-Genomics-Sequencing-and-Bioinformatics-Training/tree/main/Modules/Sequence%20data%20QC%20and%20preprocessing)
+* [Species ID and bacterial typing](https://github.com/AMR-Bioinformatics/Bacterial-Genomics-Sequencing-and-Bioinformatics-Training/tree/main/Modules/Species%20ID%20and%20bacterial%20typing)
+
+📁 Lectures/
+* [DNA_Extraction.pdf]()
+* [Library_Pre.pdf]()
+
+
+
+## 🧑‍🏫 Trainers
+
+[Dr Justin Nyasinga]()
+
+[Collins Kigen](https://www.linkedin.com/in/collins-kigen-67b74910a/)
+
+[Vanessa Natasha]()
+
+[James Wachira]()
