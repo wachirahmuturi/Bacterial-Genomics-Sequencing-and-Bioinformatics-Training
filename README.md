@@ -71,10 +71,10 @@ Participants will be able to:
 
 ## 🧑‍🏫 Trainers
 
-[Dr Justin Nyasinga]()
+[Dr Justin Nyasinga]() - Postdoctoral research fellow
 
-[Collins Kigen](https://www.linkedin.com/in/collins-kigen-67b74910a/)
+[Collins Kigen](https://www.linkedin.com/in/collins-kigen-67b74910a/) - Head of Genomics and Bioinformatics
 
-[Vanessa Natasha]()
+[Vanessa Natasha]() - Research Scientist, Genomics and Bionformatics
 
-[James Wachira]()
+[James Wachira]() - Research Scientist, Genomics and Bionformatics
