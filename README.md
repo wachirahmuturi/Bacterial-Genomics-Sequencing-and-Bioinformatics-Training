@@ -54,11 +54,14 @@ Participants will be able to:
 
 📁 Modules/
 
-* [AMR and Virulence genes screening](https://github.com/AMR-Bioinformatics/Bacterial-Genomics-Sequencing-and-Bioinformatics-Training/tree/main/Modules/AMR%20and%20Virulence%20genes%20screening)
-* [Introduction to Conda](https://github.com/AMR-Bioinformatics/Bacterial-Genomics-Sequencing-and-Bioinformatics-Training/tree/main/Modules/Introduction%20to%20Conda)
+
 * [Introduction to Unix](https://github.com/AMR-Bioinformatics/Bacterial-Genomics-Sequencing-and-Bioinformatics-Training/tree/main/Modules/Introduction%20to%20Unix)
+* [Introduction to Conda](https://github.com/AMR-Bioinformatics/Bacterial-Genomics-Sequencing-and-Bioinformatics-Training/tree/main/Modules/Introduction%20to%20Conda)
+* [NGS File Format](https://github.com/AMR-Bioinformatics/Bacterial-Genomics-Sequencing-and-Bioinformatics-Training/tree/main/Modules/NGS%20File%20Formats)
 * [Sequence data QC and preprocessing](https://github.com/AMR-Bioinformatics/Bacterial-Genomics-Sequencing-and-Bioinformatics-Training/tree/main/Modules/Sequence%20data%20QC%20and%20preprocessing)
+* [Genome Assembly](https://github.com/AMR-Bioinformatics/Bacterial-Genomics-Sequencing-and-Bioinformatics-Training/tree/main/Modules/Genome%20Assembly)
 * [Species ID and bacterial typing](https://github.com/AMR-Bioinformatics/Bacterial-Genomics-Sequencing-and-Bioinformatics-Training/tree/main/Modules/Species%20ID%20and%20bacterial%20typing)
+* [AMR and Virulence genes screening](https://github.com/AMR-Bioinformatics/Bacterial-Genomics-Sequencing-and-Bioinformatics-Training/tree/main/Modules/AMR%20and%20Virulence%20genes%20screening)
 
 📁 Lectures/
 * [DNA_Extraction.pdf]()
