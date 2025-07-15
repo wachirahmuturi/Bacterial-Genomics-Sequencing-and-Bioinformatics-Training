@@ -39,6 +39,51 @@ For example:
 
 ---
 
+## 📄 FASTA Files
+
+The **FASTA** format is widely used for representing nucleotide or protein sequences. Each entry in a FASTA file consists of:
+
+- A **header line** starting with `>` followed by a sequence identifier and optional description.
+- One or more lines of the **sequence** (DNA, RNA, or protein).
+
+### ✅ Example FASTA Entry (DNA)
+<pre>
+>sequence_1 description
+ATGCGTATCGACTAGCTAGCTAGCGTAGCTAGCTA
+ATGCTAGCTAGCTAGCTAGCTAGCGATCGATGCT
+</pre>
+
+<pre>
+>protein_1 description
+MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPT
+IEKQYKSTIGAAK
+</pre>
+---
+
+### 🔍 Notes:
+- Sequences should **only contain valid IUPAC characters** (A, T, G, C for DNA).
+- No blank lines are allowed between header and sequence.
+- FASTA files are commonly used as input for tools like BLAST, genome assembly, and alignment software.
+
+---
+
+### 📂 Typical Use Cases
+- **Reference genomes** for mapping.
+- **Protein databases** for homology searches.
+- **Input for bioinformatics pipelines**.
+
+---
+
+## 📚 Additional Resources
+- [FASTA format specification](https://blast.ncbi.nlm.nih.gov/doc/fasta.html)
+- [NCBI FASTA download](https://www.ncbi.nlm.nih.gov/)
+
+
+
+
 ## Exercise
 1. Open the first 10 lines of seq.fastq
 2. Write a code to count the number of reads in seq.fastq
+3. open the first 5 lines of seq.fasta
+4. List all the header lines of seq.fasta
+5. Count the number of sequences in seq.fasta
