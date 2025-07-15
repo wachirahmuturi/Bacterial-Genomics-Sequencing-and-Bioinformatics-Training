@@ -63,6 +63,97 @@ Some Illumina sequencing platforms such as the NextSeq series can produce reads 
 
 ### Overrepresented sequence analysis
 
+# PART 1: Quality Control
+
+
+
+**Objective:**  
+Perform quality control on raw sequencing data using **FastQC**, interpret results, and open the generated reports.
+
+---
+
+## ✅ Prerequisites
+- **Conda** installed
+- **FastQC** installed in a Conda environment
+- Sequencing data in **FASTQ** format (`*.fastq` or `*.fastq.gz`)
+
+---
+
+
+## 1. Activate the Conda environment where FastQC is installed
+```
+conda activate fastqc
+```
+
+## 2. Navigate to the working directory containing your FASTQ files
+```
+cd /path/to/your/fastq/files
+```
+
+## 3. Run FastQC on a single FASTQ file
+```
+fastqc sample.fastq.gz
+```
+
+# 4. Check generated output: FastQC creates two files per sample
+    - sample_fastqc.html (interactive report)
+    - sample_fastqc.zip  (raw analysis data)
+
+## 5. Open the HTML report in a browser
+navigate to the folder and double-click the HTML file
+
+
+# PART 2: TRIMMING
+
+
+
+**Objective:**  
+Learn how to remove low-quality bases and adapter contamination from raw sequencing reads using **Trimmomatic**.
+
+---
+
+## ✅ Prerequisites
+- **Conda** installed
+- **Trimmomatic** installed in a Conda environment
+- Raw sequencing data in FASTQ format (`*.fastq` or `*.fastq.gz`)
+- Adapter sequence file (commonly provided with Trimmomatic, e.g., `TruSeq3-PE.fa`)
+
+---
+
+
+
+## 1. Activate the Conda environment where Trimmomatic is installed
+```
+conda activate trimmomatic
+```
+
+## 2. Navigate to the working directory with your FASTQ files
+```
+cd /path/to/your/fastq/files
+```
+
+## 3. Run Trimmomatic on paired-end reads
+### Syntax:
+`trimmomatic PE -threads <N> <input_forward> <input_reverse> <output_forward_paired> <output_forward_unpaired> <output_reverse_paired> <output_reverse_unpaired> <options>`
+
+```
+trimmomatic PE -threads 4 \
+  sample_R1.fastq.gz sample_R2.fastq.gz \
+  sample_R1_paired.fq.gz sample_R1_unpaired.fq.gz \
+  sample_R2_paired.fq.gz sample_R2_unpaired.fq.gz \
+  ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 \
+  LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36
+```
+
+## 4. Check the output files:
+ - Paired-end mode creates 4 files: forward_paired, forward_unpaired, reverse_paired, reverse_unpaired
+
+
+## 5. Post-trimming QC
+fastqc sample_R1_paired.fq.gz sample_R2_paired.fq.gz
+
+
+
 Some sequences, or even entire reads, can be overrepresented in FASTQ data. Analysis of these overrepresented sequences provides an overview of certain sequencing artifacts such as PCR over-duplication, polyG tails and adapter contamination.
 
 ### Hands-on exercise 1: (20 min)
