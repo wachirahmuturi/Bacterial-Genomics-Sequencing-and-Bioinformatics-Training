@@ -2,6 +2,58 @@
 # NGS File Formats
 ## Module Developer: Collins Kigen
 ## 1.0 Introduction
+## 📚 Introduction to NGS File Formats
+
+Next-Generation Sequencing (NGS) technologies produce large volumes of data that must be stored, processed, and shared using standardized file formats. These formats ensure interoperability between tools, facilitate downstream analysis, and maintain data integrity.
+
+---
+
+### ✅ Why File Formats Matter
+- Enable **compatibility** between bioinformatics tools.
+- Represent different stages: **raw data**, **alignments**, **variants**, and **annotations**.
+- Support **data sharing** and **reproducibility**.
+
+---
+
+### 🔍 Common NGS File Formats
+
+| **Format** | **Purpose** | **Description** |
+|------------|-------------|------------------|
+| **FASTA**  | Reference sequences | Stores nucleotide or protein sequences without quality scores. |
+| **FASTQ**  | Raw reads + quality | Contains sequencing reads with Phred quality scores. |
+| **SAM/BAM**| Alignments | SAM = text format, BAM = binary compressed version of SAM. |
+| **VCF**    | Variants | Lists SNPs, indels, and other variants with annotations. |
+| **GFF/GTF**| Annotations | Genome feature annotations such as genes and exons. |
+| **BED**    | Regions | Genomic intervals (used for regions of interest). |
+
+---
+
+### ✅ File Extensions
+- `*.fasta`, `*.fa` → FASTA
+- `*.fastq`, `*.fq` → FASTQ
+- `*.sam`, `*.bam` → Alignments
+- `*.vcf`, `*.vcf.gz` → Variants
+- `*.gff`, `*.gtf` → Annotations
+- `*.bed` → Genomic intervals
+
+---
+
+### 📂 Typical Workflow
+1. **Sequencing output** → FASTQ
+2. **Alignment to reference** → SAM/BAM
+3. **Variant calling** → VCF
+4. **Annotation and feature mapping** → GFF/GTF, BED
+
+---
+
+#### 🔗 Useful Tools
+- `samtools` – View, sort, and index BAM/SAM files.
+- `bcftools` – Process VCF files.
+- `bedtools` – Genomic interval operations.
+- `seqtk` – FASTA/FASTQ manipulation.
+
+---
+
 <img width="768" height="464" alt="image" src="https://github.com/user-attachments/assets/da1c7731-228f-48e4-b81c-342a98a548d8" />
 
 
