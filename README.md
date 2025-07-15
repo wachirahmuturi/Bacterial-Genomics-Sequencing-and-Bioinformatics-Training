@@ -62,7 +62,7 @@ Participants will be able to:
 
 📁 Lectures/
 * [DNA_Extraction.pdf]()
-* [Library_Pre.pdf]()
+* [History of Sequencing, overview and comparison of NGS technologies](https://github.com/AMR-Bioinformatics/Bacterial-Genomics-Sequencing-and-Bioinformatics-Training/blob/main/Lectures/History%20of%20Sequencing%2C%20Overview%20and%20Comparison%20of%20NGS%20Technologies.pdf)
 
 
 
