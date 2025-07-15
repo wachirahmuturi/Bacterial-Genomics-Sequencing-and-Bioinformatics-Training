@@ -1,4 +1,4 @@
-# Computational Practical 3
+# Computational Practical 4
 # Sequence Data Quality Control
 ## Module Developer : Collins Kigen
 ## Introduction
