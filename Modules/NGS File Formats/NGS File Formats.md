@@ -126,12 +126,6 @@ IEKQYKSTIGAAK
 
 ---
 
-## 📚 Additional Resources
-- [FASTA format specification](https://blast.ncbi.nlm.nih.gov/doc/fasta.html)
-- [NCBI FASTA download](https://www.ncbi.nlm.nih.gov/)
-
-
-
 
 ## Exercise
 1. Open the first 10 lines of seq.fastq
