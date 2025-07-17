@@ -140,9 +140,13 @@ cd NGS-formats
 ```
 cp ../raw-reads/ERR .
 ```
+### Download SA19KEN.fasta
+```
+wget https://raw.githubusercontent.com/AMR-Bioinformatics/Bacterial-Genomics-Sequencing-and-Bioinformatics-Training/refs/heads/main/Datasets/SA19KEN.fasta
+```
 ## Exercise
-1. Open the first 10 lines of seq.fastq
-2. Write a code to count the number of reads in seq.fastq
-3. open the first 5 lines of seq.fasta
-4. List all the header lines of seq.fasta
-5. Count the number of sequences in seq.fasta
+1. Open the first 10 lines of ERR.fastq
+2. Write a code to count the number of reads in ERR.fastq
+3. Open the first 5 lines of SA19KEN.fasta
+4. List all the header lines of SA19KEN.fasta
+5. Count the number of sequences in SA19KEN.fasta
