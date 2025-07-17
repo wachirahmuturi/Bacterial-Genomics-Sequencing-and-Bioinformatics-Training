@@ -77,7 +77,7 @@ cd ~/new_dir
 ls -lhrt ~/new_dir
 head -n 10 1_control_ITS2_2019_minq7.fastq
 
-# How many files does the file have?
+# How many lines are in the file above?
 wc -l 1_control_ITS2_2019_minq7.fastq
 
 #How many reads are there in the file
