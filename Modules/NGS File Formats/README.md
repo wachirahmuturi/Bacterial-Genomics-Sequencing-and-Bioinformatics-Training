@@ -126,7 +126,20 @@ IEKQYKSTIGAAK
 
 ---
 
-
+## Practical
+### Step 1: Navigate to training directory
+```
+cd ~/Documents/Genomics-training
+```
+### Step 2: Create a directory called `NGS-formats` and move into it
+```
+mkdir NGS-formats
+cd NGS-formats
+```
+### Copy ERR from ~/Documents/raw-reads into the current directory
+```
+cp ../raw-reads/ERR .
+```
 ## Exercise
 1. Open the first 10 lines of seq.fastq
 2. Write a code to count the number of reads in seq.fastq
