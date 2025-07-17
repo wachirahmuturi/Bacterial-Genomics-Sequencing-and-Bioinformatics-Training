@@ -127,9 +127,10 @@ Install the following packages as conda environments assigning the package name 
 2. abricate
 3. mlst
 4. spatyper
-5. sccmecfinder
+5. sccmec
 6. fastqc
-7. bbduk
+7. bbmap
 8. mash
 9. parsnp
-10. iqtree2
+10. iqtree
+11. bandage
