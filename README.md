@@ -64,7 +64,7 @@ Participants will be able to:
 * [AMR and Virulence genes screening](https://github.com/AMR-Bioinformatics/Bacterial-Genomics-Sequencing-and-Bioinformatics-Training/tree/main/Modules/AMR%20and%20Virulence%20genes%20screening)
 
 📁 Lectures/
-* [DNA_Extraction.pdf]()
+* [DNA_Extraction](https://github.com/AMR-Bioinformatics/Bacterial-Genomics-Sequencing-and-Bioinformatics-Training/blob/main/Lectures/MHK%20Genomics%20training%20Nucleic%20acid%20extraction%20Primer.pdf)
 * [History of Sequencing, overview and comparison of NGS technologies](https://github.com/AMR-Bioinformatics/Bacterial-Genomics-Sequencing-and-Bioinformatics-Training/blob/main/Lectures/History%20of%20Sequencing%2C%20Overview%20and%20Comparison%20of%20NGS%20Technologies.pdf)
 
 
