@@ -110,7 +110,7 @@ with the highest priority being the last entry
 The first thing I would suggest to do, whether I know if a program is conda-installable or not, is just search in a web-browser for “conda install” plus whatever program I am looking for.
 
 #### Installing packages
-``` conda create -n <environment_name> -c <channel_name> <package_name> ```
+``` conda create -n <environment_name> <package_name> ```
 
 #### Uninstalling a package
 If we wanted to remove a package, we would want to first be inside the environment that has the specific package:
@@ -134,3 +134,6 @@ Install the following packages as conda environments assigning the package name 
 9. parsnp
 10. iqtree
 11. bandage
+12. flye
+13. quast
+14. trimmomatic
