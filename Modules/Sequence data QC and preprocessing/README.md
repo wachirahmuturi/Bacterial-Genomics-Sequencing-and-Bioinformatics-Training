@@ -87,17 +87,17 @@ conda activate fastqc
 
 ## 2. Navigate to the working directory containing your FASTQ files
 ```
-cd /path/to/your/fastq/files
+cd ~/Documents/Training
 ```
 
 ## 3. Run FastQC on a single FASTQ file
 ```
-fastqc sample.fastq.gz
+fastqc ERR12511689_1.fastq
 ```
 
 # 4. Check generated output: FastQC creates two files per sample
-    - sample_fastqc.html (interactive report)
-    - sample_fastqc.zip  (raw analysis data)
+    - ERR12511689_1.html (interactive report)
+    - ERR12511689_1.zip  (raw analysis data)
 
 ## 5. Open the HTML report in a browser
 navigate to the folder and double-click the HTML file
@@ -138,13 +138,32 @@ cd /path/to/your/fastq/files
 
 ```
 trimmomatic PE -threads 4 \
-  sample_R1.fastq.gz sample_R2.fastq.gz \
-  sample_R1_paired.fq.gz sample_R1_unpaired.fq.gz \
-  sample_R2_paired.fq.gz sample_R2_unpaired.fq.gz \
-  ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 \
-  LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36
+ERR12511689_1.fastq ERR12511689_2.fastq \
+ERR12511689_1_paired.fastq ERR12511689_1_unpaired.fastq \
+ERR12511689_2_paired.fastq ERR12511689_2_unpaired.fastq \
+ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 \
+LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 ```
+Explanation of Parameters
+PE → Paired-end mode.
 
+-threads 4 → Uses 4 CPU threads for speed.
+
+ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 → Removes adapter sequences.
+
+2 → Maximum mismatches.
+
+30 → Palindrome clip threshold.
+
+10 → Simple clip threshold.
+
+LEADING:3 → Removes low-quality bases from start (Q<3).
+
+TRAILING:3 → Removes low-quality bases from end.
+
+SLIDINGWINDOW:4:15 → Scans with a 4-base window, trimming when average Q < 15.
+
+MINLEN:36 → Drops reads shorter than 36 bases after trimming.
 ## 4. Check the output files:
  - Paired-end mode creates 4 files: forward_paired, forward_unpaired, reverse_paired, reverse_unpaired
 
@@ -157,3 +176,4 @@ fastqc sample_R1_paired.fq.gz sample_R2_paired.fq.gz
 Some sequences, or even entire reads, can be overrepresented in FASTQ data. Analysis of these overrepresented sequences provides an overview of certain sequencing artifacts such as PCR over-duplication, polyG tails and adapter contamination.
 
 ### Hands-on exercise 1: (20 min)
+Perform QC check on ERR12511690, Trimming and post-trim QC
