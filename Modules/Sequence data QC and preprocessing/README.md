@@ -129,7 +129,7 @@ conda activate trimmomatic
 
 ## 2. Navigate to the working directory with your FASTQ files
 ```
-cd /path/to/your/fastq/files
+cd ~/Documents/Training
 ```
 
 ## 3. Run Trimmomatic on paired-end reads
@@ -141,7 +141,6 @@ trimmomatic PE -threads 4 \
 ERR12511689_1.fastq ERR12511689_2.fastq \
 ERR12511689_1_paired.fastq ERR12511689_1_unpaired.fastq \
 ERR12511689_2_paired.fastq ERR12511689_2_unpaired.fastq \
-ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 \
 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 ```
 Explanation of Parameters
@@ -169,7 +168,7 @@ MINLEN:36 → Drops reads shorter than 36 bases after trimming.
 
 
 ## 5. Post-trimming QC
-fastqc sample_R1_paired.fq.gz sample_R2_paired.fq.gz
+fastqc ERR12511689_1_paired.fq.gz ERR12511689_2_paired.fq.gz
 
 
 
