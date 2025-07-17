@@ -129,24 +129,29 @@ IEKQYKSTIGAAK
 ## Practical
 ### Step 1: Navigate to training directory
 ```
-cd ~/Documents/Genomics-training
+cd ~/Documents/Training
 ```
 ### Step 2: Create a directory called `NGS-formats` and move into it
 ```
 mkdir NGS-formats
 cd NGS-formats
 ```
-### Step 3: Copy ERR from ~/Documents/raw-reads into the current directory
+### Step 3: Copy ERR from ~/Documents/Training into the current directory
 ```
-cp ../raw-reads/ERR .
+cp ../ERR12511689_1.fastq.gz .
 ```
-### Step 4: Download SA19KEN.fasta
+### Step 4: Uncompress the fastq.gz
+```
+gunzip ERR12511689_1.fastq.gz
+```
+ 
+### Step 5: Download SA19KEN.fasta
 ```
 wget https://raw.githubusercontent.com/AMR-Bioinformatics/Bacterial-Genomics-Sequencing-and-Bioinformatics-Training/refs/heads/main/Datasets/SA19KEN.fasta
 ```
 ## Exercise
-1. Open the first 10 lines of ERR.fastq
-2. Write a code to count the number of reads in ERR.fastq
+1. Open the first 10 lines of ERR12511689_1.fastq
+2. Write a code to count the number of reads in ERR12511689_1.fastq
 3. Open the first 5 lines of SA19KEN.fasta
 4. List all the header lines of SA19KEN.fasta
 5. Count the number of sequences in SA19KEN.fasta
