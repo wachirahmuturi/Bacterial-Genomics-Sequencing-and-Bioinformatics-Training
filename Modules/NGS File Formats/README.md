@@ -136,11 +136,11 @@ cd ~/Documents/Genomics-training
 mkdir NGS-formats
 cd NGS-formats
 ```
-### Copy ERR from ~/Documents/raw-reads into the current directory
+### Step 3: Copy ERR from ~/Documents/raw-reads into the current directory
 ```
 cp ../raw-reads/ERR .
 ```
-### Download SA19KEN.fasta
+### Step 4: Download SA19KEN.fasta
 ```
 wget https://raw.githubusercontent.com/AMR-Bioinformatics/Bacterial-Genomics-Sequencing-and-Bioinformatics-Training/refs/heads/main/Datasets/SA19KEN.fasta
 ```
